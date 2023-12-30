@@ -7,3 +7,11 @@
 
 ![image](https://github.com/LeeKyeongYong/webFlux500_Study/assets/81811670/77bab3f8-575a-4375-bd07-af5dfbc43649)
 
+
+ <br/>-POST방식으로 보낼때<br/>
+
+![image](https://github.com/LeeKyeongYong/webFlux500_Study/assets/81811670/552c0ec7-a6a5-493f-86bd-f8a08b87d783)
+ <br/><br/>
+![image](https://github.com/LeeKyeongYong/webFlux500_Study/assets/81811670/ab28a1be-33f9-4440-a8a0-13243312bf12)
+<BR/>
+
