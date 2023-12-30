@@ -23,7 +23,7 @@ public class TableController {
         return tableService.getAllTableData();
     }
 
-    @PostMapping("/insert")
+    @GetMapping("/insert")
     public Mono<TableCollection> insertTableData(@RequestParam String newData) {
         return tableService.insertTableData(newData);
     }
