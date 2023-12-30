@@ -18,7 +18,7 @@ public class TableController {
         this.tableService = tableService;
     }
 
-    @GetMapping
+    @GetMapping("/")
     public Flux<TableCollection> getAllTableData() {
         return tableService.getAllTableData();
     }
