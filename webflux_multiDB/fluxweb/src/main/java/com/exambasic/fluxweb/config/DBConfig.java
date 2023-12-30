@@ -9,21 +9,20 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.r2dbc.connection.R2dbcTransactionManager;
 import org.springframework.transaction.ReactiveTransactionManager;
 
-@Configuration
+//@Configuration
 public class DBConfig {
 
-    @Bean
-    @Primary
+    //@Bean
     public ConnectionFactory connectionFactory(){
         return ConnectionFactories.get(ConnectionFactoryOptions.parse("r2dbc:mysql://59.32.16.42:3306/lonly?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true")
                 .mutate()
-                .option(ConnectionFactoryOptions.USER,"아이디")
-                .option(ConnectionFactoryOptions.PASSWORD,"비밀번호")
+                .option(ConnectionFactoryOptions.USER,"hos")
+                .option(ConnectionFactoryOptions.PASSWORD,"2tkdalsz")
                 .build());
 
     }
 
-    @Bean
+    //@Bean
     public ReactiveTransactionManager transactionManager(ConnectionFactory connectionFactory) {
 
         return new R2dbcTransactionManager(connectionFactory);
