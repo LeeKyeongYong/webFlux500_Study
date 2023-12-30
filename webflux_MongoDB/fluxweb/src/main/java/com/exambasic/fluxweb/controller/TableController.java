@@ -28,7 +28,7 @@ public class TableController {
         return tableService.insertTableData(newData);
     }
 
-    @PostMapping("/insert")
+    @PostMapping("/insert-form")
     public Mono<TableCollection> insertPostMapping(@RequestParam String newData) {
         return tableService.insertTableData(newData);
     }
