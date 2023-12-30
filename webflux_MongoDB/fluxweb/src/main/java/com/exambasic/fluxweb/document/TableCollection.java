@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.lang.annotation.Documented;
 
-@Document(collation = "table1")
+@Document//(collation = "table1") 속성제거
 @Data
 public class TableCollection {
     @Id
