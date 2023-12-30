@@ -28,5 +28,10 @@ public class TableController {
         return tableService.insertTableData(newData);
     }
 
+    @PostMapping("/insert")
+    public Mono<TableCollection> insertPostMapping(@RequestParam String newData) {
+        return tableService.insertTableData(newData);
+    }
+
 }
 //curl -X POST "http://localhost:8090/api/tables/insert?newData=YourDataHere"
