@@ -16,8 +16,8 @@ public class DBConfig {
     public ConnectionFactory connectionFactory(){
         return ConnectionFactories.get(ConnectionFactoryOptions.parse("r2dbc:mysql://59.32.16.42:3306/lonly?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true")
                 .mutate()
-                .option(ConnectionFactoryOptions.USER,"hos")
-                .option(ConnectionFactoryOptions.PASSWORD,"2tkdalsz")
+                .option(ConnectionFactoryOptions.USER,"아이디")
+                .option(ConnectionFactoryOptions.PASSWORD,"비밀번호")
                 .build());
 
     }
